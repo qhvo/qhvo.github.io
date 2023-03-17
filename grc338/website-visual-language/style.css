@@ -201,13 +201,14 @@ h2.about{
 }
 
 figure.category {
-	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto;
 }
+
 
 img.card {
 	position: relative;
-	margin: auto;
+	margin: 0.1rem  auto;
 	max-width: 50%;
 	max-height: fit-content;
 }
@@ -254,5 +255,10 @@ img.about {
     main.menu ul li {
         margin: 1em 1.5em;
     }
-   
+    
+	figure.category {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	
 }
